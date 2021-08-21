@@ -1,0 +1,213 @@
+<!-- Make a few observations for this test file. -->
+  <!-- There are 5 account tags (i.e. id attributes are ASDVF5, ABCDE5, MNOPQ4, XTGSD2, XYZRF2 respectively). -->
+    <!-- There are 5 attribute tags which are children of each account tag. -->
+      <!-- There are 2, 1, 1, 1, 1 attributeValueRef tags that are children of these account tags respectively. -->
+
+<rbacx>
+     <account id="ASDVF5">
+      <name>ASDVF5</name>
+      <endPoint>AVFDR</endPoint>
+      <domain>AVFDR</domain>
+      <comments/>
+      <attributes>
+        <attribute name="appUserName">
+          <attributeValues>
+            <attributeValue>
+              <value>ABCDEFG</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="XXXX">
+          <attributeValues>
+            <attributeValue>
+              <value>ASDVF5</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="appUserStatus">
+          <attributeValues>
+            <attributeValue>
+              <value>ACTIVE</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="CostCentre">
+          <attributeValues>
+            <attributeValue>
+              <value>3711</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="Role">
+          <attributeValues>
+            <attributeValueRef id="Role=ABCDEFG"/>
+            <attributeValueRef id="Role=HIJKLMN"/>
+          </attributeValues>
+        </attribute>
+      </attributes>
+    </account>
+    <account id="ABCDE5">
+      <name>ABCDE5</name>
+      <endPoint>AVFDR</endPoint>
+      <domain>AVFDR</domain>
+      <comments/>
+      <attributes>
+        <attribute name="appUserName">
+          <attributeValues>
+            <attributeValue>
+              <value>********</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="XXXX">
+          <attributeValues>
+            <attributeValue>
+              <value>ABCDE5</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="appUserStatus">
+          <attributeValues>
+            <attributeValue>
+              <value>ACTIVE</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="CostCentre">
+          <attributeValues>
+            <attributeValue>
+              <value>9999</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="Role">
+          <attributeValues>
+            <attributeValueRef id="Role=LMNOPQRST"/>
+          </attributeValues>
+        </attribute>
+      </attributes>
+    </account>
+    <account id="MNOPQ4">
+      <name>MNOPQ4</name>
+      <endPoint>AVFDR</endPoint>
+      <domain>AVFDR</domain>
+      <comments/>
+      <attributes>
+        <attribute name="appUserName">
+          <attributeValues>
+            <attributeValue>
+              <value>ADATHI</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="XXXX">
+          <attributeValues>
+            <attributeValue>
+              <value>MNOPQ4</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="appUserStatus">
+          <attributeValues>
+            <attributeValue>
+              <value>ACTIVE</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="CostCentre">
+          <attributeValues>
+            <attributeValue>
+              <value>9999</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="Role">
+          <attributeValues>
+            <attributeValueRef id="Role=DSDSDSDSD"/>
+          </attributeValues>
+        </attribute>
+      </attributes>
+    </account>
+    <account id="XTGSD2">
+      <name>XTGSD2</name>
+      <endPoint>AVFDR</endPoint>
+      <domain>AVFDR</domain>
+      <comments/>
+      <attributes>
+        <attribute name="appUserName">
+          <attributeValues>
+            <attributeValue>
+              <value>LELFFFG</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="XXXX">
+          <attributeValues>
+            <attributeValue>
+              <value>XTGSD2</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="appUserStatus">
+          <attributeValues>
+            <attributeValue>
+              <value>ACTIVE</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="CostCentre">
+          <attributeValues>
+            <attributeValue>
+              <value>9999</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="Role">
+          <attributeValues>
+            <attributeValueRef id="Role=********"/>
+          </attributeValues>
+        </attribute>
+      </attributes>
+    </account>
+    <account id="XYZRF2">
+      <name>XYZRF2</name>
+      <endPoint>AVFDR</endPoint>
+      <domain>AVFDR</domain>
+      <comments/>
+      <attributes>
+        <attribute name="appUserName">
+          <attributeValues>
+            <attributeValue>
+              <value>QWEDEF</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="XXXX">
+          <attributeValues>
+            <attributeValue>
+              <value>XYZRF2</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="appUserStatus">
+          <attributeValues>
+            <attributeValue>
+              <value>ACTIVE</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="CostCentre">
+          <attributeValues>
+            <attributeValue>
+              <value>9999</value>
+            </attributeValue>
+          </attributeValues>
+        </attribute>
+        <attribute name="Role">
+          <attributeValues>
+            <attributeValueRef id="Role=AQSDEWBBB"/>
+          </attributeValues>
+        </attribute>
+      </attributes>
+    </account>
+</rbacx>
